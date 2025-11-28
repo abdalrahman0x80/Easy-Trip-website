@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Trip</title>
+</head>
+
+<body class="scroll-smooth">
+    <section class="landing-page pt-4 px-20">
+        <header class="flex justify-between items-center">
+            <div class="title flex items-center text-lg">
+                <i class="fa-solid fa-person-walking-luggage"></i>
+                <span class="inline-block uppercase">Easy Trip</span>
+            </div>
+            <nav class="navbar hidden lg:block *:text-lg">
+                <a href="#app"      class="mx-10">Out App</a>
+                <a href="#preview" class="mx-10">Preview</a>
+                <a href="404.html" class="mx-10">Out Blog</a>
+
+            </nav>
+            <a class="bg-transparent hidden sm:block  cursor-pointer border text-black px-4 py-1 rounded-full">Download App</a>
+            <button class="sm:hidden block" id="menu"><i class="fas fa-bars text-2xl hover:text-gray-400"></i></button>
+        </header>
+        <menu class="mymenu flex-col gap-1 p-5 hidden">
+            <a href="#app"    >Our App</a>
+            <a href="#preview">Preview</a>
+            <a href="404.html">Out Blog</a>
+        </menu>
+        <section class="landing-body mt-15">
+            <section class="relative ">
+                <h1 class="font-bold leading-[100px] lg:w-[575px] lg:text-left text-center uppercase text-[90px]">plan
+                    your <span class="italic font-light">escape</span></h1>
+              <div class="mt-10 flex justify-center lg:block lg:mt-0">
+                  <img class="lg:absolute lg:block top-0 right-0 w-72 " src="images/landingPageImage.png" alt="landing page image">
+              </div>
+
+            </section>
+            <section class="flex p-5 rounded-lg bg-[#e3e2f7] mt-10 justify-between">
+                <div>
+                    <p class="sm:w-[400px]">
+                        We have the largest selection of unique tours. Try our easy and quick tour selection for any
+                        request. 24-hour support is always happy to answer all your questions.
+                    </p>
+                    <button
+                        class="py-2 mt-5 px-5 hover:bg-white transition hover:text-black bg-black text-white rounded-full">Get
+                        Started</button>
+                    <div class="download-app flex items-center mt-15">
+                        <p class="mr-5">The mobile app <br> is available now</p>
+                        <div
+                            class="*:text-2xl *:hover:bg-black *:transition *:hover:text-white *:cursor-pointer flex items-center *:border *:mx-1 *:rounded-full *:justify-center *:items-center *:flex *:size-10 *:p-2">
+                            <div><i class="fa-brands fa-google-play   "></i></div>
+                            <div><i class="fa-brands fa-apple "></i></div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <section class="preview  mt-10 mb-20 ">
+        <header class="flex sm:flex-row flex-col sm:justify-center items-center" id="preview">
+            <div class="statistic text-[40px] sm:text-left text-center  mx-5">
+                <h1 class="font-bold text-[70px]">2K+</h1>
+                <p class="description">UNIQUE <br>TOURS</p>
+            </div>
+            <div class="statistic text-[40px] sm:text-left text-center mx-5">
+                <h1 class="font-bold text-[70px]">4K+</h1>
+                <p class="description">APP STORE <br>RATING</p>
+            </div>
+            <div class="statistic text-[40px] sm:text-left text-center mx-5">
+                <h1 class="font-bold text-[70px]">10K+</h1>
+                <p class="description">HAPPY <br>TRAVELERS
+            </div>
+        </header>
+        <section class="mx-15  mt-10  bg-white rounded-xl p-10 sm:flex relative">
+            <div class="*:text-center sm:*:text-left flex justify-center flex-col sm:block">
+                <p class="text-[50px] font-semibold" >IMMENSE TOURS SELECTION</p>
+                <p class="italic text-[30px]">
+                    WE TURN YOUR DREAMS
+                    <br>
+                    INTO UNFORGETTABLE TRAVEL
+                </p>
+                <button class="border cursor-pointer rounded-full mt-10 py-2 px-6">view review</button>
+            </div>
+            <div>
+                <img class="xl:absolute z-50 -top-20  right-0 w-120" src="images/previewPageImage.png" alt="">
+            </div>
+        </section>
+    </section>
+    <section class="join px-20">
+        <section class="landing flex flex-col lg:flex-row  lg:justify-between">
+            <div class="landing-left">
+                <h1 class="sm:text-7xl text-4xl font-medium uppercase" id="app">Join Out <br> Community</h1>
+                <p class="pl-1 mt-7">Become a user of our mobile app<br>
+                    and your travels will become<br>
+                    more enjoyable and amazing</p>
+                <button
+                    class="py-2 mt-5 px-5 hover:bg-white transition hover:text-black bg-black text-white rounded-full">Download
+                    App</button>
+            </div>
+            <div class="landing-right">
+                <h1 class="text-4xl mt-5 italic">
+                    THE BEST <br>
+                    EXPERIENCE <br>
+                    COMMUNITY <br>
+                    IN TRAVEL
+                </h1>
+                <p>They have already join<br>
+                    our community. And you?</p>
+                    <div class="users">
+                        <div class="flex mt-10">
+                            <img class="size-10 translate-x-5 rounded-full" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <img class="size-10 translate-x-2 rounded-full" src="https://images.unsplash.com/photo-1568290696106-ace229a158a6?q=80&w=670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <img class="size-10 object-cover -translate-x-2 rounded-full" src="https://images.unsplash.com/photo-1500048993953-d23a436266cf?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <img class="size-10 object-cover -translate-x-6 rounded-full" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <img class="size-10 object-cover -translate-x-10 rounded-full" src="https://images.unsplash.com/photo-1640951613773-54706e06851d?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            
+                        </div>
+                        
+                    </div>
+            </div>
+        </section>
+    </section>
+    <section class="px-20 mt-20">
+    <div class="no-scrollbar overflow-auto">
+       
+        <div class="grid grid-cols-[repeat(4,minmax(330px,1fr))] gap-8  *:pb-2">
+            <!-- Card 1 -->
+            <div class="min-w-[330px]  max-h-100 bg-white rounded-xl shadow-lg border border-gray-200 shadow-gray-300">
+                <img src="https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="head-card p-5 flex justify-between items-center">
+                    <h1 class="text-3xl font-medium">China</h1>
+                    <span class="text-gray-500 text-sm">Partner discount <i class="fa-solid fa-certificate"></i></span>
+                </div>
+                <div class="body-card pt-2 px-5">
+                    <p class="text-gray-600">
+                        From $3.199 / 10 days <br>
+                        12 recommended hotels
+                    </p>
+                    <button class="bg-black mt-3 rounded-full px-5 py-3 text-white">Explore</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="min-w-[330px]  max-h-100 bg-white rounded-xl shadow-lg border border-gray-200 shadow-gray-300">
+                <img src="https://static.vecteezy.com/system/resources/previews/002/296/264/non_2x/mt-fuji-with-chureito-pagoda-free-photo.jpg" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="head-card p-5 flex justify-between items-center">
+                    <h1 class="text-3xl font-medium">Japan</h1>
+                    <span class="text-gray-500 text-sm">Partner discount <i class="fa-solid fa-certificate"></i></span>
+                </div>
+                <div class="body-card pt-2 px-5">
+                    <p class="text-gray-600">
+                        From $10.199 / 15 days <br>
+                        9 recommended hotels
+                    </p>
+                    <button class="bg-black mt-3 rounded-full px-5 py-3 text-white">Explore</button>
+                </div>
+            </div>
+           
+            <!-- Card 3 -->
+            <div class="min-w-[330px]  max-h-100 bg-white rounded-xl shadow-lg border border-gray-200 shadow-gray-300">
+                <img src="https://images.unsplash.com/photo-1600520611035-84157ad4084d?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="head-card p-5 flex justify-between items-center">
+                    <h1 class="text-3xl font-medium">Egypt</h1>
+                    <span class="text-gray-500 text-sm">Partner discount <i class="fa-solid fa-certificate"></i></span>
+                </div>
+                <div class="body-card pt-2 px-5">
+                    <p class="text-gray-600">
+                        From $7.55 / 9 days <br>
+                        10 recommended hotels
+                    </p>
+                    <button class="bg-black mt-3 rounded-full px-5 py-3 text-white">Explore</button>
+                </div>
+            </div>
+            <div class="min-w-[330px]  max-h-100 bg-white rounded-xl shadow-lg border border-gray-200 shadow-gray-300">
+                <img src="https://images.unsplash.com/photo-1548115184-bc6544d06a58?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="head-card p-5 flex justify-between items-center">
+                    <h1 class="text-3xl font-medium">Korea</h1>
+                    <span class="text-gray-500 text-sm">Partner discount <i class="fa-solid fa-certificate"></i></span>
+                </div>
+                <div class="body-card pt-2 px-5">
+                    <p class="text-gray-600">
+                        From $50.198 / 30 days <br>
+                        12 recommended hotels
+                    </p>
+                    <button class="bg-black mt-3 rounded-full px-5 py-3 text-white">Explore</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<footer class="bg-black text-white p-5 mt-20">
+   <div class="social">
+    <nav class="text-xl flex justify-center ">
+        <a class="mx-9" href="https://t.me/abdalrahman0x80"><i class=" fab fa-telegram"></i></a>
+        <a class="mx-9" href="https://github.com/abdalrahman0x80"><i class=" fab fa-github"></i></a>
+        <a class="mx-9" href="https://x.com/abdalrahman0x80"><i class=" fab fa-twitter"></i></a>
+        <a class="mx-9" href="https://codepen.io/abdalrahman0x80"><i class=" fab fa-codepen"></i></a>
+    </nav>
+    <p class="text-center mt-10"> Copyright &copy; 2025</p>
+   </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+
+</html>
